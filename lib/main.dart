@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tu_app_carros/screen/lista_auntos.dart';
+import 'package:flutter_application_1/screen/login.dart';
 
 void main() => runApp(const CarrosDeAndarApp());
 
@@ -9,9 +9,8 @@ class CarrosDeAndarApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'lista de carros',
-      theme: ThemeData(primarySwatch: Colors.orange),
-      home: const ListaCarrosScreen(),
+      title: "Rental Car App",
+      home: Login(), // Modifica para probar Screens
     );
   }
 }
