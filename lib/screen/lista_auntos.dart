@@ -91,7 +91,7 @@ class ListaCarrosScreen extends StatelessWidget {
 
                   const SizedBox(height: 10),
 
-                  // Título
+                  
                   Text(
                     c["titulo"],
                     style: const TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
@@ -101,7 +101,7 @@ class ListaCarrosScreen extends StatelessWidget {
 
                   const SizedBox(height: 4),
 
-                  // Tiempo
+                  
                   Text(
                     c["tiempo"],
                     style: const TextStyle(fontSize: 12, color: Colors.grey),
@@ -109,7 +109,7 @@ class ListaCarrosScreen extends StatelessWidget {
 
                   const SizedBox(height: 6),
 
-                  // Precio grande
+                  
                   Text(
                     "\$${c["precio"]}",
                     style: TextStyle(
@@ -121,7 +121,7 @@ class ListaCarrosScreen extends StatelessWidget {
 
                   const SizedBox(height: 8),
 
-                  // Descripción completa
+                  
                   Text(
                     c["desc"],
                     style: const TextStyle(fontSize: 12.5, height: 1.4, color: Colors.black87),
@@ -131,7 +131,7 @@ class ListaCarrosScreen extends StatelessWidget {
 
                   const Spacer(),
 
-                  // Botón ARQUILAR
+                  ////////////////////////
                   SizedBox(
                     width: double.infinity,
                     height: 48,
