@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/screen/login.dart';
 
 void main() {
   runApp(const MainApp());
@@ -12,7 +13,7 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Rental Car App",
-      home: purchaseHistory(), // Modifica para probar Screens
+      home: Login(), // Modifica para probar Screens
     );
   }
 }
