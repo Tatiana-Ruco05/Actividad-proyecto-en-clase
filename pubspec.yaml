@@ -1,19 +1,31 @@
-name: flutter_application_1
-description: "A new Flutter project."
+name: tu_app_carros
+description: Carros de andar y motorhomes
 publish_to: 'none'
-version: 0.1.0
+version: 1.0.0+1
 
 environment:
-  sdk: ^3.10.0
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
+  cupertino_icons: ^1.0.8
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^6.0.0
+  flutter_lints: ^4.0.0
 
 flutter:
   uses-material-design: true
+
+
+  assets:
+    - lib/imang/carro 1.webp
+    - lib/imang/carro 3.jpg
+    - lib/imang/carro 4.jpeg
+    - lib/imang/carro5.webp
+    - lib/imang/carro 6.webp
+    - lib/imang/carro 7.webp
+    
+
